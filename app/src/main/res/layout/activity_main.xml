@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center|top"
+        android:paddingHorizontal="30dp"
+        android:paddingTop="40dp"
+        android:background="@android:color/white"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Language Exam"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test your language skills"
+            android:layout_margin="10dp"
+            android:textSize="17sp"
+            android:textColor="#808080"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/lanlan"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnJapanese"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/button_language"
+            android:text="JP 🇯🇵\nJapanese\nTest your Japanese language skills"
+            android:textColor="@android:color/black"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:elevation="0dp"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnTurkish"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/button_language"
+            android:text="TR 🇹🇷\nTurkish\nImprove your Turkish skills"
+            android:textColor="@android:color/black"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:elevation="0dp"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnFrench"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/button_language"
+            android:text="FR 🇫🇷\nFrench\nPractice French easily"
+            android:textColor="@android:color/black"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:elevation="0dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
